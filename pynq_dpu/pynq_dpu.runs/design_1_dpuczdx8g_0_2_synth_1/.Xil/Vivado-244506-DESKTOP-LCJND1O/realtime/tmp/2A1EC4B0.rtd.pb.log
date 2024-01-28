@@ -1,0 +1,278 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-4471] merging register 'GenPtGrp[2].u_routing/AssignBkSelBinary[1].GenOnehot2BinaryPP4.bk_sel_binary_reg[1][1:0]' into 'GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16330]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[2].u_routing/AssignBkSelBinary[2].GenOnehot2BinaryPP4.bk_sel_binary_reg[2][1:0]' into 'GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16330]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[2].u_routing/AssignBkSelBinary[3].GenOnehot2BinaryPP4.bk_sel_binary_reg[3][1:0]' into 'GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16330]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1:0]' into 'GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16330]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/AssignBkSelBinary[1].GenOnehot2BinaryPP4.bk_sel_binary_reg[1][1:0]' into 'GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16330]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/AssignBkSelBinary[2].GenOnehot2BinaryPP4.bk_sel_binary_reg[2][1:0]' into 'GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16330]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/AssignBkSelBinary[3].GenOnehot2BinaryPP4.bk_sel_binary_reg[3][1:0]' into 'GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16330]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[2].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[1].bgbk_addr_reg[1][10:0]' into 'GenPtGrp[2].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[0].bgbk_addr_reg[0][10:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16411]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[2].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[2].bgbk_addr_reg[2][10:0]' into 'GenPtGrp[2].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[0].bgbk_addr_reg[0][10:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16411]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[2].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[3].bgbk_addr_reg[3][10:0]' into 'GenPtGrp[2].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[0].bgbk_addr_reg[0][10:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16411]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[1].bgbk_addr_reg[1][10:0]' into 'GenPtGrp[3].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[0].bgbk_addr_reg[0][10:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16411]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[2].bgbk_addr_reg[2][10:0]' into 'GenPtGrp[3].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[0].bgbk_addr_reg[0][10:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16411]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[3].bgbk_addr_reg[3][10:0]' into 'GenPtGrp[3].u_routing/GenBgAddr[0].GenBgBkAddrNN.GenBgBkAddr[0].bgbk_addr_reg[0][10:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16411]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[0].AssignBk[0].pt_bk_rden_reg[0][0:0]' into 'GenPtGrp[0].u_routing/bk_sel_reg[0:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:16047]
+INFO: [Synth 8-4471] merging register 'instr_subidx_reg[2:0]' into 'instr_subidx_reg[2:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:22692]
+INFO: [Synth 8-5544] ROM "sub_instr_num0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'GenPtGrp[2].u_routing/GenPgN.u_axi_rs/mode2.aresetn_d_reg' into 'GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.aresetn_d_reg' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:6492]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/GenPgN.u_axi_rs/mode2.aresetn_d_reg' into 'GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.aresetn_d_reg' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:6492]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[0].D0.d_r_reg[0][1:0]' into 'GenPtGrp[2].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[0].D0.d_r_reg[0][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:6620]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[1].DX.d_r_reg[1][1:0]' into 'GenPtGrp[2].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[1].DX.d_r_reg[1][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:6627]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[2].DX.d_r_reg[2][1:0]' into 'GenPtGrp[2].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[2].DX.d_r_reg[2][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:6627]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[3].DX.d_r_reg[3][1:0]' into 'GenPtGrp[2].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[3].DX.d_r_reg[3][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:6627]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[3].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[4].DX.d_r_reg[4][1:0]' into 'GenPtGrp[2].u_routing/GenBgbkDlyNN.GenBgbkDly[1].u_dly_bgbk/BIT[4].DX.d_r_reg[4][1:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:6627]
+WARNING: [Synth 8-3936] Found unconnected internal register 'GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.storage_data_reg' and it is trimmed from '56' to '55' bits. [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:6502]
+INFO: [Synth 8-4471] merging register 'GenPtGrp[1].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][3:0]' into 'GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][3:0]' [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ipshared/53f7/hdl/DPUCZDX8G_v4_1_0_vl_dpu.sv:17299]
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[63] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[62] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[61] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[60] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[59] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[58] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[57] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[56] driven by constant 1
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[55] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[54] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[53] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[52] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[51] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[50] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[49] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[48] driven by constant 1
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[47] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[46] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[45] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[44] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[43] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[42] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[41] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[40] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[39] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[38] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[37] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[36] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[35] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[34] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[33] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[32] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[31] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[30] driven by constant 1
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[29] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[28] driven by constant 1
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[27] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[26] driven by constant 1
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[25] driven by constant 1
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[24] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[23] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[22] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[21] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[20] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[19] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[18] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[17] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[16] driven by constant 1
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[15] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[14] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[13] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[12] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[11] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[10] driven by constant 1
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[9] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[8] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[7] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[6] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[5] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[4] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[3] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[2] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[1] driven by constant 0
+WARNING: [Synth 8-3917] design dpu_top__GCB0 has port target_id[0] driven by constant 0
+WARNING: [Synth 8-7129] Port arbid[23] in module bkrd_arbiter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port arbid[11] in module bkrd_arbiter is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst_n in module pg_routing_wr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bk_wren[7] in module pg_routing_wr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bk_wren[6] in module pg_routing_wr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bk_wren[5] in module pg_routing_wr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bk_wren[4] in module pg_routing_wr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bk_wren[3] in module pg_routing_wr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bk_wren[2] in module pg_routing_wr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bk_wren[1] in module pg_routing_wr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bk_wren[0] in module pg_routing_wr is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleeps_i[3][18] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleeps_i[2][18] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleeps_i[1][18] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sleeps_i[0][18] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port img_rready[1] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port img_rready[0] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[9] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[8] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[7] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[6] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[5] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[4] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[3] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[2] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[1] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_waddr[0] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[127] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[126] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[125] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[124] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[123] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[122] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[121] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[120] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[119] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[118] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[117] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[116] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[115] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[114] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[113] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[112] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[111] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[110] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[109] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[108] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[107] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[106] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[105] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[104] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[103] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[102] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[101] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[100] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[99] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[98] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[97] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[96] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[95] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[94] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[93] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[92] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[91] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[90] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[89] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[88] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[87] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[86] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[85] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[84] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[83] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[82] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[81] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[80] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[79] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[78] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[77] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[76] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[75] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[74] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[73] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[72] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[71] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[70] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[69] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[68] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[67] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[66] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[65] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[64] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[63] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[62] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[61] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[60] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[59] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[58] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[57] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[56] in module buf_top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port mean_wdata[55] in module buf_top is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-4652] Swapped enable and write-enable on 4 RAM instances of RAM gen_bram_dram.ram_reg to conserve power
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkrd/GenPtGrp[0].AssignBk[6].pt_bk_rden_reg[0][6]' (FD) to 'm_buf_top/u_img_bkrd/GenPtGrp[0].u_routing/bk_sel_reg[6]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkrd/GenPtGrp[0].AssignBk[7].pt_bk_rden_reg[0][7]' (FD) to 'm_buf_top/u_img_bkrd/GenPtGrp[0].u_routing/bk_sel_reg[7]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkrd/GenPtGrp[0].AssignBk[0].pt_bk_rden_reg[0][0]' (FD) to 'm_buf_top/u_img_bkrd/GenPtGrp[0].u_routing/bk_sel_reg[0]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkrd/GenPtGrp[0].AssignBk[1].pt_bk_rden_reg[0][1]' (FD) to 'm_buf_top/u_img_bkrd/GenPtGrp[0].u_routing/bk_sel_reg[1]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkrd/GenPtGrp[0].AssignBk[2].pt_bk_rden_reg[0][2]' (FD) to 'm_buf_top/u_img_bkrd/GenPtGrp[0].u_routing/bk_sel_reg[2]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkrd/GenPtGrp[0].AssignBk[3].pt_bk_rden_reg[0][3]' (FD) to 'm_buf_top/u_img_bkrd/GenPtGrp[0].u_routing/bk_sel_reg[3]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkrd/GenPtGrp[0].AssignBk[4].pt_bk_rden_reg[0][4]' (FD) to 'm_buf_top/u_img_bkrd/GenPtGrp[0].u_routing/bk_sel_reg[4]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkrd/GenPtGrp[0].AssignBk[5].pt_bk_rden_reg[0][5]' (FD) to 'm_buf_top/u_img_bkrd/GenPtGrp[0].u_routing/bk_sel_reg[5]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkrd/GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][0]' (FD) to 'm_buf_top/u_img_bkrd/GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_buf_top/u_img_bkrd /\GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPP4.bk_sel_binary_reg[0][1] )
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkwr/GenPtGrp[3].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][1]' (FD) to 'm_buf_top/u_img_bkwr/GenPtGrp[3].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_buf_top/u_img_bkwr /\GenPtGrp[3].u_routing /\AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0] )
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkwr/GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][1]' (FD) to 'm_buf_top/u_img_bkwr/GenPtGrp[2].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_buf_top/u_img_bkwr /\GenPtGrp[2].u_routing /\AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0] )
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkwr/GenPtGrp[1].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][1]' (FD) to 'm_buf_top/u_img_bkwr/GenPtGrp[1].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_buf_top/u_img_bkwr /\GenPtGrp[1].u_routing /\AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0] )
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_img_bkwr/GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][1]' (FD) to 'm_buf_top/u_img_bkwr/GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_buf_top/u_img_bkwr /\GenPtGrp[0].u_routing /\AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0] )
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_wgt_bkwr/GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][3]' (FD) to 'm_buf_top/u_wgt_bkwr/GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_wgt_bkwr/GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][0]' (FD) to 'm_buf_top/u_wgt_bkwr/GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][1]'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_wgt_bkwr/GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][2]' (FD) to 'm_buf_top/u_wgt_bkwr/GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_buf_top/u_wgt_bkwr/GenPtGrp[0].u_routing/AssignBkSelBinary[0].GenOnehot2BinaryPT1.bk_sel_binary_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_scheduler_top/m_thread_ctrl/thdl_suspend_req_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_buf_top/u_bias_bkrd/GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.storage_data_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\m_buf_top/u_bias_bkwr/GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.storage_data_reg[75] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_buf_top/u_bias_bkwr/GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.storage_data_reg[76] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\m_buf_top/u_wgt_bkwr/GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.storage_data_reg[75] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\m_buf_top/u_img_bkwr /\GenPtGrp[2].u_routing /\GenPgN.u_axi_rs/mode2.storage_data_reg[75] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\m_buf_top/u_img_bkwr /\GenPtGrp[3].u_routing /\GenPgN.u_axi_rs/mode2.storage_data_reg[75] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_scheduler_top/m_scheduler_thdl /m_lctrl/exec_done_reg)
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_bias_bkrd/GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.aresetn_d_reg' (FDR) to 'm_buf_top/u_bias_bkwr/GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.aresetn_d_reg'
+INFO: [Synth 8-3886] merging instance 'm_buf_top/u_bias_bkwr/GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.aresetn_d_reg' (FDR) to 'm_buf_top/u_wgt_bkwr/GenPtGrp[1].u_routing/GenPgN.u_axi_rs/mode2.aresetn_d_reg'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[0]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[1]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[1]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[2]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[2]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[3]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[3]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[4]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[4]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[5]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[5]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[6]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[6]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[7]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[7]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[8]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[8]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[9]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[9]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[10]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[10]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[11]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[11]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[12]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[12]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[13]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[13]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[14]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[14]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[15]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[15]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[16]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[16]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[17]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[17]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[18]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[18]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[19]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[19]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[20]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[20]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[21]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[21]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[22]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[22]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[23]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[23]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[24]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[24]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[25]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[25]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[26]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[26]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[27]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[27]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[28]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[28]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[29]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[29]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[30]'
+INFO: [Synth 8-3886] merging instance 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[30]' (FDRE) to 'm_scheduler_top/m_scheduler_thdl/m_profiler/exec_cycle_l_r_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_scheduler_top/m_scheduler_thdl /\m_profiler/exec_cycle_l_r_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_scheduler_top/m_scheduler_thdl /m_pctrl/thd_is_suspended_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_scheduler_top/m_scheduler_thdl /m_cctrl/thd_is_suspended_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_scheduler_top/m_scheduler_thdl /m_lctrl/thd_is_suspended_reg)
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\m_scheduler_top/m_scheduler_thdl /m_sctrl/thd_is_suspended_reg)

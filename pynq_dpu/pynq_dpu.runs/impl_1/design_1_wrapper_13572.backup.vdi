@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Jan 26 13:11:57 2024
+# Process ID: 13572
+# Current directory: /home/rrr/XP/pynq_dpu/pynq_dpu.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/rrr/XP/pynq_dpu/pynq_dpu.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/rrr/XP/pynq_dpu/pynq_dpu.runs/impl_1/vivado.jou
+# Running On: DESKTOP-LCJND1O, OS: Linux, CPU Frequency: 3393.618 MHz, CPU Physical cores: 12, Host memory: 8291 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1315.758 ; gain = 0.023 ; free physical = 5128 ; free virtual = 8105
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/rrr/XP/DPUCZDX8G_ip_repo_VAI_v3.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.2/data/ip'.
+Command: link_design -top design_1_wrapper -part xc7z020clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-454] Reading design checkpoint '/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.dcp' for cell 'design_1_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_dpuczdx8g_0_2/design_1_dpuczdx8g_0_2.dcp' for cell 'design_1_i/dpuczdx8g_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0.dcp' for cell 'design_1_i/proc_sys_reset_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0.dcp' for cell 'design_1_i/proc_sys_reset_150M'
+INFO: [Project 1-454] Reading design checkpoint '/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.dcp' for cell 'design_1_i/proc_sys_reset_300M'
+INFO: [Project 1-454] Reading design checkpoint '/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp' for cell 'design_1_i/processing_system7_0'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1824.250 ; gain = 0.000 ; free physical = 4514 ; free virtual = 7493
+INFO: [Netlist 29-17] Analyzing 4302 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2022.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. design_1_i/clk_wiz_0/inst/clkin1_ibufg 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'design_1_i/clk_wiz_0/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_300M/U0'
+Finished Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc] for cell 'design_1_i/proc_sys_reset_300M/U0'
+Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_300M/U0'
+Finished Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc] for cell 'design_1_i/proc_sys_reset_300M/U0'
+Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_board.xdc] for cell 'design_1_i/proc_sys_reset_150M/U0'
+Finished Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_board.xdc] for cell 'design_1_i/proc_sys_reset_150M/U0'
+Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0.xdc] for cell 'design_1_i/proc_sys_reset_150M/U0'
+Finished Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0.xdc] for cell 'design_1_i/proc_sys_reset_150M/U0'
+Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0_board.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Finished Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0.xdc] for cell 'design_1_i/proc_sys_reset_0/U0'
+Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+INFO: [Common 17-41] Interrupt caught. Command should exit soon. [/home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]

@@ -1,0 +1,13 @@
+dm_write_ctrl 2CFDEB28
+buf_writer__GB1 28E93890
+save_data 475B39B0
+save_datacmd__GC0 522F99B0
+save_top__GC0 459D76E0
+PEA_adder__GB0 51C95A10
+PEA_adder__GB1 3FA57FC8
+PEA__GC0 4FB256E0
+conv_top__GC0 27F58330
+dpu_top__GCB0 2A1EC4B0
+dpu_top__GCB1 2CBBCBB8
+dpu_wrapper__GC0 27E68510
+DPUCZDX8G_v4_1_0__GC0 2AAAAF90
