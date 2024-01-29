@@ -1,10 +1,10 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-// Date        : Sun Jan 28 21:29:25 2024
+// Date        : Mon Jan 29 11:46:06 2024
 // Host        : DESKTOP-LCJND1O running 64-bit Ubuntu 20.04.6 LTS
-// Command     : write_verilog -force -mode funcsim -rename_top design_1_clk_wiz_0_0 -prefix
-//               design_1_clk_wiz_0_0_ design_1_clk_wiz_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim
+//               /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_sim_netlist.v
 // Design      : design_1_clk_wiz_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -31,7 +31,7 @@ module design_1_clk_wiz_0_0
   wire locked;
   wire resetn;
 
-  design_1_clk_wiz_0_0_design_1_clk_wiz_0_0_clk_wiz inst
+  design_1_clk_wiz_0_0_clk_wiz inst
        (.clk_in1(clk_in1),
         .clk_out_150M(clk_out_150M),
         .clk_out_300M(clk_out_300M),
@@ -39,7 +39,7 @@ module design_1_clk_wiz_0_0
         .resetn(resetn));
 endmodule
 
-module design_1_clk_wiz_0_0_design_1_clk_wiz_0_0_clk_wiz
+module design_1_clk_wiz_0_0_clk_wiz
    (clk_out_150M,
     clk_out_300M,
     resetn,

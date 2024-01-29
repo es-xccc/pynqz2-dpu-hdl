@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-| Date         : Sun Jan 28 23:01:22 2024
+| Date         : Mon Jan 29 11:57:48 2024
 | Host         : DESKTOP-LCJND1O running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_timing_summary -max_paths 10 -report_unconstrained -file design_1_wrapper_timing_summary_routed.rpt -pb design_1_wrapper_timing_summary_routed.pb -rpx design_1_wrapper_timing_summary_routed.rpx -warn_on_violation
 | Design       : design_1_wrapper
@@ -43,9 +43,8 @@ Rule       Severity          Description                                        
 ---------  ----------------  -----------------------------------------------------------------------------------------------------  ----------  
 TIMING-54  Critical Warning  Scoped false path, clock group or max delay datapath only constraint between clocks                    2           
 TIMING-9   Warning           Unknown CDC Logic                                                                                      1           
-TIMING-28  Warning           Auto-derived clock referenced by a timing constraint                                                   2           
 TIMING-46  Warning           Multicycle path with tied CE pins                                                                      513         
-TIMING-47  Warning           False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  4           
+TIMING-47  Warning           False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  2           
 ULMTCS-1   Warning           Control Sets use limits recommend reduction                                                            1           
 
 Note: This report is based on the most recent report_methodology run and may not be up-to-date. Run report_methodology on the current design for the latest report.

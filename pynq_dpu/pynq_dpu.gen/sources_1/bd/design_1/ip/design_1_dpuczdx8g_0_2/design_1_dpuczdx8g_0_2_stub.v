@@ -1,10 +1,10 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (lin64) Build 3671981 Fri Oct 14 04:59:54 MDT 2022
-// Date        : Sun Jan 28 21:39:59 2024
+// Date        : Sun Jan 28 21:39:51 2024
 // Host        : DESKTOP-LCJND1O running 64-bit Ubuntu 20.04.6 LTS
-// Command     : write_verilog -force -mode synth_stub
-//               /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_dpuczdx8g_0_2/design_1_dpuczdx8g_0_2_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top design_1_dpuczdx8g_0_2 -prefix
+//               design_1_dpuczdx8g_0_2_ design_1_dpuczdx8g_0_2_stub.v
 // Design      : design_1_dpuczdx8g_0_2
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z020clg400-1
