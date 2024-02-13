@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "/home/rrr/XP/pynq_dpu/pynq_dpu.runs/synth_1/design_1_wrapper.tcl"
+  variable script "C:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.runs/synth_1/design_1_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -78,38 +78,36 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir /home/rrr/XP/pynq_dpu/pynq_dpu.cache/wt [current_project]
-set_property parent.project_path /home/rrr/XP/pynq_dpu/pynq_dpu.xpr [current_project]
+set_property webtalk.parent_dir C:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.cache/wt [current_project]
+set_property parent.project_path C:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.xpr [current_project]
 set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part_repo_paths {/home/rrr/.Xilinx/Vivado/2022.2/xhub/board_store/xilinx_board_store} [current_project]
-set_property board_part tul.com.tw:pynq-z2:part0:1.0 [current_project]
-set_property ip_repo_paths /home/rrr/XP/DPUCZDX8G_ip_repo_VAI_v3.0 [current_project]
+set_property ip_repo_paths c:/Github_Repo/pynqz2_dpu/DPUCZDX8G_ip_repo_VAI_v3.0 [current_project]
 update_ip_catalog
-set_property ip_output_repo /home/rrr/XP/pynq_dpu/pynq_dpu.cache/ip [current_project]
+set_property ip_output_repo c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
-add_files /home/rrr/XP/pynq_dpu/pynq_dpu.srcs/sources_1/bd/design_1/design_1.bd
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_dpuczdx8g_0_2/design_1_dpuczdx8g_0_2.xdc]
-set_property used_in_synthesis false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_dpuczdx8g_0_2/design_1_dpuczdx8g_0_2_impl.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_dpuczdx8g_0_2/design_1_dpuczdx8g_0_2_impl.xdc]
-set_property used_in_implementation false [get_files -all /home/rrr/XP/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/design_1_ooc.xdc]
+read_verilog -library xil_defaultlib C:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v
+add_files C:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.srcs/sources_1/bd/design_1/design_1.bd
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_0/design_1_proc_sys_reset_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_1_0/design_1_proc_sys_reset_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_2_0/design_1_proc_sys_reset_2_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_dpuczdx8g_0_2/design_1_dpuczdx8g_0_2.xdc]
+set_property used_in_synthesis false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_dpuczdx8g_0_2/design_1_dpuczdx8g_0_2_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/ip/design_1_dpuczdx8g_0_2/design_1_dpuczdx8g_0_2_impl.xdc]
+set_property used_in_implementation false [get_files -all c:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.gen/sources_1/bd/design_1/design_1_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -120,14 +118,14 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc /home/rrr/XP/pynq_dpu/pynq_dpu.srcs/constrs_1/new/con.xdc
-set_property used_in_implementation false [get_files /home/rrr/XP/pynq_dpu/pynq_dpu.srcs/constrs_1/new/con.xdc]
+read_xdc C:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.srcs/constrs_1/new/cons.xdc
+set_property used_in_implementation false [get_files C:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.srcs/constrs_1/new/cons.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental /home/rrr/XP/pynq_dpu/pynq_dpu.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+read_checkpoint -auto_incremental -incremental C:/Github_Repo/pynqz2_dpu/pynq_dpu/pynq_dpu.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
