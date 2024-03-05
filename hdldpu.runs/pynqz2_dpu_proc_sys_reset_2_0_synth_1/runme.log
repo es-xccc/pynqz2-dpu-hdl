@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log pynqz2_dpu_proc_sys_reset_2_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source pynqz2_dpu_proc_sys_reset_2_0.tcl
+
